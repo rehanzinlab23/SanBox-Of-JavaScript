@@ -22,9 +22,13 @@ const person = {
 };
 
 x = person.name;
+
 x = person['age'];
+
 x = person.address;
+
 x = person.address.city;
+
 x = person.hobbies[0];
 
 console.log(x);
